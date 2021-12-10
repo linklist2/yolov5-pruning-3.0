@@ -1,0 +1,1 @@
+python train.py --data ./data/dior-9.yaml --cfg models/yolov5s-dior-9.yaml --workers 8  --prune --loss_type 'polarization' --pruning_strategy 'grad' --epochs 300 --lbd 0.0003 --t 1.5 --sparsity_strategy 'strage1'
